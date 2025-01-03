@@ -38,11 +38,11 @@ if uploaded_file is not None:
         st.dataframe(df_predict[columns_to_display])
 
     # Calculate the total number of anomalies (where 'Anomaly' == 1)
-    total_anomalies = df_predict[df_predict['Anomaly'] == 1].shape[0]  # Count rows where 'Anomaly' is 1
-    total_rows = len(df_predict)  # Total number of rows in the dataframe
+        total_anomalies = df_predict[df_predict['Anomaly'] == 1].shape[0]  # Count rows where 'Anomaly' is 1
+        total_rows = len(df_predict)  # Total number of rows in the dataframe
 
-    # Display the total anomalies detected
-    st.write(f"Anomalies detected: {total_anomalies}/{total_rows}")
+        # Display the total anomalies detected
+        st.write(f"Anomalies detected: {total_anomalies}/{total_rows}")
 
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}")
