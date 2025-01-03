@@ -1,4 +1,4 @@
-Python==3.8.16
+#Python==3.8.16
 streamlit==1.40.1
 pycaret==3.0.0
 joblib==1.2.0
