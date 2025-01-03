@@ -39,5 +39,3 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"An error occurred during prediction: {e}")
-else:
-    st.error("Please check if the file format is CSV and try again!")
