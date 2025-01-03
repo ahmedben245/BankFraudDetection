@@ -2,4 +2,4 @@
 streamlit==1.40.1
 pycaret==3.0.0
 joblib==1.2.0
-python3.10-distutils
+python3.7-distutils
