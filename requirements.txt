@@ -1,3 +1,4 @@
 streamlit
 pycaret
 joblib
+pandas==1.5.3
